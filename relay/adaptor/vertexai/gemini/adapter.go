@@ -15,13 +15,12 @@ import (
 )
 
 var ModelList = []string{
-	"gemini-pro", "gemini-pro-vision",
-	"gemini-exp-1206",
-	"gemini-1.5-pro-001", "gemini-1.5-pro-002",
-	"gemini-1.5-flash-001", "gemini-1.5-flash-002",
-	"gemini-2.0-flash-exp", "gemini-2.0-flash-001",
-	"gemini-2.0-flash-lite-preview-02-05",
-	"gemini-2.0-flash-thinking-exp-01-21",
+	"gemini-3-flash-preview",
+	"gemini-3-pro-preview",
+	"gemini-2.5-flash-lite-preview-09-2025",
+	"gemini-2.5-flash",
+	"gemini-2.5-flash-lite",
+	"gemini-2.5-pro",
 }
 
 type Adaptor struct {
